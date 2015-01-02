@@ -1,7 +1,7 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Skye" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1420041309718"><hook NAME="MapStyle" background="#ffcccc" zoom="0.75">
-    <properties show_note_icons="true"/>
+<node TEXT="SAUB" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1370656694491"><hook NAME="MapStyle" zoom="0.75">
+    <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -50,149 +50,344 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9"/>
-<node TEXT="Drives" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_1263150742" CREATED="1415826190762" MODIFIED="1420041080563" HGAP="613" VSHIFT="109">
-<edge COLOR="#ff0000"/>
-<cloud COLOR="#ff99cc" SHAPE="ARC"/>
-<node TEXT="OneDrive" ID="ID_895077817" CREATED="1415826199542" MODIFIED="1415826638243">
-<node TEXT="eventosPassados" ID="ID_1576285274" CREATED="1415826638250" MODIFIED="1420041167024">
-<font SIZE="20"/>
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Learning Objects" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1039552715" CREATED="1368418547642" MODIFIED="1385391535301" HGAP="728" VSHIFT="-275">
+<hook NAME="FreeNode"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this system learning objects are anything digitalized....images, sound, pdfs, htmls, videos..... all can be contributed by anyone...anyone can add questions to any item...and others can respond to those questions, gaining learning credits.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Responses are grouped as simple (quick not much reserach), detalhed (much more research...probably resulting in uploading a pdf, video ou foto album) or groupWork (even more detailed - certainly have an upload).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Each learning object can also generate discussion...that does not gain specific points (although participation em general can de avaliated)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Some special learing objects need to be handled specially...a presentation...probably has a pdf and a sound file.... as can a foto..............and think about foto albums....
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Projects are collections of learning objects !!!
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="Ekobe" ID="ID_935153867" CREATED="1415826548361" MODIFIED="1420041167024">
-<font SIZE="20"/>
+<node TEXT="Quest" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_971136921" CREATED="1368240856062" MODIFIED="1385391530187" HGAP="718" VSHIFT="-197">
+<hook NAME="FreeNode"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Quest.....allows alonos to generate a new question...for himself and others.......
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      =====&gt; AAA/pergunta.html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <u>data.value ===&gt; pergunta.txt</u>
+    </p>
+    <p>
+      item[0]=title
+    </p>
+    <p>
+      [1]==nome of resource that the pergunta refers tolocalStorage.name)
+    </p>
+    <p>
+      [2]=pergunta]
+    </p>
+    <p>
+      [3]=ls.rightsidebar (arte,video,apresent...)
+    </p>
+    <p>
+      [4]=
+    </p>
+    <p>
+      [5]=comment
+    </p>
+    <p>
+      [6]=tags
+    </p>
+    <p>
+      [7]=when
+    </p>
+    <p>
+      [8]=who
+    </p>
+    <p>
+      [9]=
+    </p>
+    <p>
+      [10]=url
+    </p>
+    <p>
+      [11]=pt
+    </p>
+    <p>
+      [12]=curso
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <u>credito.value</u>
+    </p>
+    <p>
+      item[0]=title
+    </p>
+    <p>
+      [1]==avaliacao
+    </p>
+    <p>
+      [2]=pergunta
+    </p>
+    <p>
+      [3]=ls.rightsidebar (arte,video,apresent...)
+    </p>
+    <p>
+      [4]=
+    </p>
+    <p>
+      [5]=comment
+    </p>
+    <p>
+      [6]=tags
+    </p>
+    <p>
+      [7]=when
+    </p>
+    <p>
+      [8]=who
+    </p>
+    <p>
+      [9]=
+    </p>
+    <p>
+      [10]=url
+    </p>
+    <p>
+      [11]=pt
+    </p>
+    <p>
+      [12]=curso
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      stored into AAA/perguntas.txt
+    </p>
+    <p>
+      moviment in alunos/acoes.txt
+    </p>
+    <p>
+      sends email to Skye
+    </p>
+    <p>
+      generates a credito for the aluno....
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="AAA/pergunta.txt" ID="ID_449986633" CREATED="1368241696575" MODIFIED="1368241728286"/>
+<node TEXT="alunos/username/acoes.txt" ID="ID_112370169" CREATED="1368241786457" MODIFIED="1368241833269"/>
+<node TEXT="email to skye" ID="ID_517070020" CREATED="1368241835002" MODIFIED="1368241855201"/>
 </node>
+<node TEXT="Learning Packets" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_904280463" CREATED="1370656147075" MODIFIED="1370658032986" HGAP="-700" VSHIFT="-133">
+<hook NAME="FreeNode"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      These are the basic building blocks of the pcd....main themes.... that start a line of thinking...that lead to other research and to the generation f learning objects.
+    </p>
+    <p>
+      Inicially based in collections of fotos ou videos...with transcript ou audio....
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      in general the packet will start with a very broad overview....enough to interest and inform participants...them the packet will break nto more detailed themes
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="MediaFire" ID="ID_1365449200" CREATED="1415826204655" MODIFIED="1420041167024">
-<font SIZE="20"/>
-<node TEXT="Jacanau" ID="ID_1339165439" CREATED="1415826580412" MODIFIED="1420041167009">
-<font SIZE="20"/>
+<node TEXT="Resposta" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1338898781" CREATED="1368240791326" MODIFIED="1368242904579" HGAP="710" VSHIFT="-40">
+<hook NAME="FreeNode"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A simple tab set that allows a student to submit a resposta.....
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      gets the appropriate perguntas......using [[Perguntas]] and checking against <font color="#ff0033">localStorage.name </font>
+    </p>
+    <p>
+      <font color="#ff0033">on select pergunta...</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Perguntas" ID="ID_1588037345" CREATED="1368242456094" MODIFIED="1368242469283"/>
+<node TEXT="Tipo Resposta" ID="ID_218078191" CREATED="1368242471932" MODIFIED="1368242482465"/>
+<node TEXT="Mandar Resposta - simples" ID="ID_1730300092" CREATED="1368242485300" MODIFIED="1368244512383"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .item=localStorage.name (the source that the student id responding to)
+    </p>
+    <p>
+      username=username
+    </p>
+    <p>
+      <u>data </u>
+    </p>
+    <p>
+      [0]=title
+    </p>
+    <p>
+      [1]=localStorage.name
+    </p>
+    <p>
+      [2]=pergunta
+    </p>
+    <p>
+      [3]=tipo
+    </p>
+    <p>
+      [4]=
+    </p>
+    <p>
+      [5]=comment (the resposta!!)
+    </p>
+    <p>
+      [6]=tags
+    </p>
+    <p>
+      [7]=when
+    </p>
+    <p>
+      [[8]=username
+    </p>
+    <p>
+      [9]=
+    </p>
+    <p>
+      [10]=url
+    </p>
+    <p>
+      [11]=pt
+    </p>
+    <p>
+      [[12]=curso
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <u>credito </u>
+    </p>
+    <p>
+      [0]=title
+    </p>
+    <p>
+      [1]=avaliacao
+    </p>
+    <p>
+      [2]=pergunta
+    </p>
+    <p>
+      [3]=tipo
+    </p>
+    <p>
+      [4]=
+    </p>
+    <p>
+      [5]=comment (the resposta!!)
+    </p>
+    <p>
+      [6]=tags
+    </p>
+    <p>
+      [7]=when
+    </p>
+    <p>
+      [[8]=username
+    </p>
+    <p>
+      [9]=
+    </p>
+    <p>
+      [10]=url
+    </p>
+    <p>
+      [11]=pt
+    </p>
+    <p>
+      [[12]=curso
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ====&gt; resposta.txt
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="Documentos" ID="ID_513577709" CREATED="1415826587158" MODIFIED="1420041167009">
-<font SIZE="20"/>
-<node TEXT="Ivone_2013" ID="ID_699422285" CREATED="1415828544214" MODIFIED="1415828623742"/>
-<node TEXT="Ivone_2014" ID="ID_377710403" CREATED="1415828624277" MODIFIED="1415828630982"/>
-<node TEXT="Ivone_older" ID="ID_1847375677" CREATED="1415828631502" MODIFIED="1415828766104"/>
-<node TEXT="SENAC" ID="ID_1011647303" CREATED="1415828549682" MODIFIED="1415828559089"/>
-<node TEXT="IT" ID="ID_1271231851" CREATED="1415828560656" MODIFIED="1415828562813"/>
-<node TEXT="Skye_2012" ID="ID_915470148" CREATED="1415828563711" MODIFIED="1415828572727"/>
-<node TEXT="Skye_2013" ID="ID_1881420245" CREATED="1415828574149" MODIFIED="1415828578665"/>
-<node TEXT="Skye_2014" ID="ID_1688702471" CREATED="1415828579801" MODIFIED="1415828584928"/>
-<node TEXT="UniGaia_2009" ID="ID_1443170743" CREATED="1415828597601" MODIFIED="1415828603213"/>
-<node TEXT="MinhasDigitalizacoes" ID="ID_1380845922" CREATED="1415828768461" MODIFIED="1415828778745"/>
-<node TEXT="TrocasBlueTooth" ID="ID_1744337569" CREATED="1415828797989" MODIFIED="1415828810881"/>
+<node TEXT="Mandar Resposta  - detalhada" ID="ID_476145662" CREATED="1368242512751" MODIFIED="1368242538257"/>
+<node TEXT="Mandar Resposta - seu grupo" ID="ID_752310667" CREATED="1368242541598" MODIFIED="1368242553287"/>
 </node>
-</node>
-<node TEXT="Dropbox" ID="ID_1604437046" CREATED="1415826212387" MODIFIED="1420041167009">
-<font SIZE="20"/>
-<node TEXT="fotos desde Tablets" ID="ID_1618017299" CREATED="1415826276889" MODIFIED="1420041167009">
-<font SIZE="20"/>
-</node>
-<node TEXT="Dinamicas" ID="ID_1914484029" CREATED="1415826433687" MODIFIED="1420041167009">
-<font SIZE="20"/>
-</node>
-<node TEXT="Estudando" ID="ID_213763565" CREATED="1415826464975" MODIFIED="1420041167009">
-<font SIZE="20"/>
-</node>
-<node TEXT="Referencias" ID="ID_412733666" CREATED="1415826486481" MODIFIED="1420041167009">
-<font SIZE="20"/>
-</node>
-</node>
-<node TEXT="Powerfolder" ID="ID_1611135254" CREATED="1415826218205" MODIFIED="1420041132860">
-<font SIZE="20"/>
-<node TEXT="aguasEstrela" ID="ID_427241851" CREATED="1415826691049" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="lagoaPrata" ID="ID_113496082" CREATED="1415826696602" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="novoEncanto" ID="ID_747279775" CREATED="1415826709142" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="altaFalante" ID="ID_1050630121" CREATED="1419692035554" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-</node>
-<node TEXT="Box" ID="ID_1304146803" CREATED="1415826230155" MODIFIED="1420041132860">
-<font SIZE="20"/>
-<node TEXT="SEDUC" ID="ID_1574490501" CREATED="1415826322436" MODIFIED="1420041132860">
-<font SIZE="20"/>
-<node TEXT="Relatorios2014" ID="ID_75522632" CREATED="1415828389907" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="recantoEcologicoPermacuultural" ID="ID_441789185" CREATED="1415828398088" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="Rotas" ID="ID_214724342" CREATED="1415828410072" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-</node>
-<node TEXT="escolasResilientes" ID="ID_1559880712" CREATED="1415826326755" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="escolasCampo" ID="ID_804276016" CREATED="1415828435888" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-<node TEXT="escolasIndigenas" ID="ID_723581616" CREATED="1415828442146" MODIFIED="1420041132860">
-<font SIZE="20"/>
-</node>
-</node>
-<node TEXT="ownCloud" ID="ID_616121554" CREATED="1415826233857" MODIFIED="1415826238233"/>
-<node TEXT="teamDrive" ID="ID_1237004342" CREATED="1415826259996" MODIFIED="1415826264684"/>
-<node TEXT="CloudDrive" ID="ID_1700356496" CREATED="1415826351285" MODIFIED="1420041100473">
-<font SIZE="20"/>
-<node TEXT="SAUB" ID="ID_1477148611" CREATED="1415826385848" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-<node TEXT="rioPacoti" ID="ID_972031977" CREATED="1415826389269" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-</node>
-<node TEXT="GitHub" ID="ID_1419120255" CREATED="1420040684093" MODIFIED="1420041100473">
-<font SIZE="20"/>
-<node TEXT="freeplanes" ID="ID_1839815121" CREATED="1420040693615" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-<node TEXT="escolasResilientes" ID="ID_1303400350" CREATED="1420040700328" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-<node TEXT="PDC2000" ID="ID_808636656" CREATED="1420040708128" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-<node TEXT="ManualEnsinaCriativamente" ID="ID_1210346382" CREATED="1420040741021" MODIFIED="1420041100473">
-<font SIZE="20"/>
-</node>
-</node>
-</node>
-<node TEXT="PAFS" POSITION="left" ID="ID_1386823618" CREATED="1415826732511" MODIFIED="1416399412890" HGAP="440">
-<edge COLOR="#0000ff"/>
-<cloud COLOR="#ccff99" SHAPE="ARC"/>
-<node TEXT="AbiWord" ID="ID_493909924" CREATED="1415826872878" MODIFIED="1415826894261"/>
-<node TEXT="Audacity" ID="ID_14969197" CREATED="1415826896080" MODIFIED="1415826899825"/>
-<node TEXT="Chromium" ID="ID_291808065" CREATED="1415826901188" MODIFIED="1415826905865"/>
-<node TEXT="dirhtml" ID="ID_984123501" CREATED="1415826906633" MODIFIED="1415826910311"/>
-<node TEXT="Filezilla" ID="ID_1768579718" CREATED="1415826911332" MODIFIED="1415826917081"/>
-<node TEXT="FreePlane" ID="ID_77579599" CREATED="1415826917772" MODIFIED="1415826921443"/>
-<node TEXT="GIMP" ID="ID_1331410261" CREATED="1415826922189" MODIFIED="1415826926265"/>
-<node TEXT="Inkscape" ID="ID_886642489" CREATED="1415826927133" MODIFIED="1415826931191"/>
-<node TEXT="Jarte" ID="ID_842405745" CREATED="1415826932978" MODIFIED="1415826936749"/>
-<node TEXT="netLogo" ID="ID_1774296860" CREATED="1415826937421" MODIFIED="1415826940510"/>
-<node TEXT="Opera" ID="ID_1257660397" CREATED="1415826941125" MODIFIED="1415826943699"/>
-<node TEXT="PDFTK" ID="ID_392917612" CREATED="1415826946050" MODIFIED="1415826952895"/>
-<node TEXT="PicPick" ID="ID_1944045921" CREATED="1415826953495" MODIFIED="1415826959379"/>
-<node TEXT="Putty" ID="ID_1938272964" CREATED="1415826959994" MODIFIED="1415826974067"/>
-<node TEXT="ResophNotes" ID="ID_528365066" CREATED="1415826975598" MODIFIED="1415826980581"/>
-<node TEXT="Safari" ID="ID_1750914989" CREATED="1415826981166" MODIFIED="1415826984964"/>
-<node TEXT="Scribus" ID="ID_159094845" CREATED="1415826986724" MODIFIED="1415826990019"/>
-<node TEXT="SimplyHTML" ID="ID_722636347" CREATED="1415826990716" MODIFIED="1415826994716"/>
-<node TEXT="Songbird" ID="ID_1940525453" CREATED="1415826995994" MODIFIED="1415826999691"/>
-<node TEXT="TypeTask" ID="ID_1298317814" CREATED="1415827000406" MODIFIED="1415827024647"/>
-</node>
-<node TEXT="www.unigaia-brasil.org" POSITION="left" ID="ID_243896931" CREATED="1415826796637" MODIFIED="1420136202393" HGAP="10" VSHIFT="20">
-<icon BUILTIN="internet"/>
-<edge COLOR="#00ffff"/>
-<node TEXT="Cursos" ID="ID_1929894379" CREATED="1415826811948" MODIFIED="1420136202392" HGAP="220" VSHIFT="70">
+<node TEXT="www.unigaia-brasil.org" POSITION="right" ID="ID_184797323" CREATED="1364848645533" MODIFIED="1385391675203" HGAP="30">
+<edge COLOR="#0000ff" WIDTH="3"/>
 <cloud COLOR="#f0f0f0" SHAPE="ARC"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_456697813" STARTINCLINATION="11;-36;" ENDINCLINATION="-141;-82;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="AAA" ID="ID_808094166" CREATED="1364848668750" MODIFIED="1364848672878">
 <node TEXT="biblioTecaStore.txt" ID="ID_1513824609" CREATED="1364862861062" MODIFIED="1364862879035"/>
 <node TEXT="dadosStore.txt" ID="ID_1071375520" CREATED="1364862910433" MODIFIED="1408036507672">
@@ -292,13 +487,14 @@
 </node>
 <node TEXT="AAB" ID="ID_1636682156" CREATED="1364848674429" MODIFIED="1364848677962"/>
 <node TEXT="Logos" ID="ID_1453244027" CREATED="1364848680929" MODIFIED="1364848685055"/>
-<node TEXT="Materias" ID="ID_1296274598" CREATED="1366162312211" MODIFIED="1366162317934">
-<node TEXT="materia.html" ID="ID_118025791" CREATED="1366162317938" MODIFIED="1366162329188">
-<node TEXT="nota" ID="ID_672538220" CREATED="1366162340289" MODIFIED="1368065214305">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#00cc00" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#00cc00" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" STARTINCLINATION="135;-78;" ENDINCLINATION="85;-21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Alunos" ID="ID_15015615" CREATED="1364848685555" MODIFIED="1364848689109">
+<node TEXT="aluno" ID="ID_1952340213" CREATED="1366162439168" MODIFIED="1366162446286">
+<node TEXT="acoes.txt" ID="ID_410134694" CREATED="1366162447855" MODIFIED="1366162455973"/>
+<node TEXT="diario.txt" ID="ID_1832614203" CREATED="1366162457480" MODIFIED="1366162464435"/>
+<node TEXT="creditos.txt" ID="ID_925833546" CREATED="1366163550385" MODIFIED="1384219404090">
+<cloud COLOR="#ffcccc" SHAPE="ARC"/>
 </node>
-<node TEXT="pergunta" ID="ID_20932897" CREATED="1366162350690" MODIFIED="1384214576289"><richcontent TYPE="NOTE">
+<node TEXT="config.txt" ID="ID_61275643" CREATED="1371160499446" MODIFIED="1371160583774"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -306,41 +502,13 @@
   </head>
   <body>
     <p>
-      when displaying a learning object, the icons for info, batepapo, answer and return show up.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#ff0033">BatePapo - needs t be fixe</font>d
-    </p>
-    <p>
-      <font color="#ff0033">ANswers...check out destination of respostas...and the upload part!! </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#330033">return seems to be working</font>
+      password|email|curso|telefone|webage|facebook
     </p>
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000ff" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="104;0;" ENDINCLINATION="110;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000ff" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" STARTINCLINATION="97;-31;" ENDINCLINATION="128;-31;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="resposta" ID="ID_1497332700" CREATED="1366162606116" MODIFIED="1370656597390" HGAP="110">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc00cc" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" MIDDLE_LABEL="avalia&#xe7;&#xe3;o?" STARTINCLINATION="120;-174;" ENDINCLINATION="294;-68;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc00cc" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="83;6;" ENDINCLINATION="258;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-</node>
-<node TEXT="referencia" ID="ID_1713002167" CREATED="1366162357692" MODIFIED="1366162363456"/>
-<node TEXT="video" ID="ID_609675642" CREATED="1366162364713" MODIFIED="1366162369655"/>
-</node>
-<node TEXT="materia.txt" ID="ID_611001331" CREATED="1366162330266" MODIFIED="1366162336932"/>
-</node>
-<node TEXT="Cursos" ID="ID_1665252990" CREATED="1371249197684" MODIFIED="1371249202494">
-<node TEXT="NomeCurso" ID="ID_806582159" CREATED="1407892647583" MODIFIED="1407892660469">
-<node TEXT="programa.txt" ID="ID_251502452" CREATED="1371251560460" MODIFIED="1408036542103"><richcontent TYPE="NOTE">
+<node TEXT="grupos.txt" ID="ID_1538083271" CREATED="1384214809665" MODIFIED="1384219425603"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -348,154 +516,40 @@
   </head>
   <body>
     <p>
-      a matrix of the main materias...and dates as to when each module will be released......
+      for the group work (projects and study groups, and maybe local workshops and working-bees) need to be able to regsiter and use information about whos in the group.....principally to allocate credits....
     </p>
     <p>
-      |Iniciando|20140702|
+      
     </p>
     <p>
-      |Onde_Estamos|20140703|
+      so....someonw has to be the group facilitator..... who will register the group, respond to questions and send reports..... HOW?
     </p>
     <p>
-      |Onde_Queremos_Ir||
+      
     </p>
     <p>
-      |Princpios_e_Caminhos|20140702|
+      In left side bar alunos.....open the icon....fill in the form and register group...note that the facilitator does not register their name and the group name has to be unique...the php file (<font color="#0000ff">Alunos/novoGrupo.php</font>) checks group name and validates each participante name (geting the aluno.txt file from the course folder in Cursos)...then records the group into <font color="#0000ff">Alunos/grupos.txt </font>
     </p>
     <p>
-      |Resiliencia|20140703|
+      
     </p>
     <p>
-      |Agua|20140803|
+      <font color="#330033">alunos list also includes list of all groups for that course...and their participantes... </font>
     </p>
     <p>
-      |EcoConstrucao|20140808|
+      
     </p>
     <p>
-      |seAlimentando||
+      <font color="#ff0033">check out group registration after add Ivone to all</font>
     </p>
     <p>
-      |Zona_000||
-    </p>
-    <p>
-      |Zona_00||
-    </p>
-    <p>
-      |Zona_1||
-    </p>
-    <p>
-      |Zona_2||
-    </p>
-    <p>
-      |Zona_3||
-    </p>
-    <p>
-      |Zona_4||
-    </p>
-    <p>
-      |Zona_5||
-    </p>
-    <p>
-      |Solos||
-    </p>
-    <p>
-      |Comunidade||
-    </p>
-    <p>
-      |Economia||
-    </p>
-    <p>
-      |Tecnologia||
-    </p>
-    <p>
-      |Educacao||
-    </p>
-    <p>
-      |Aula1||
-    </p>
-    <p>
-      |Aula2||
+      
     </p>
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1743346204" STARTINCLINATION="95;-30;" ENDINCLINATION="95;-30;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<cloud COLOR="#ffcccc" SHAPE="ARC"/>
 </node>
-<node TEXT="alunos.txt" ID="ID_1525583759" CREATED="1371249202498" MODIFIED="1383838749779"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      AAA/alunosSimples.txt has the list of all students (approved to upload...) and each student has a config.txt file with basic info........
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      NOW...when a student registers for a course..... as well as setting up their config.txt....need to also put their details into a course list...so that the system can quickly list co-participants.......
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      need to check that they digitised for a valid course name!!!.....need file with registered course names!
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Cursos!!alunos
-    </p>
-    <p>
-      uses localStorage.curso to get the student list from Cursos/curso/alunos.txt, and then cycles through the names..opening Alunos/nome/config.txt and getting the appropriate information into a simple table.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="mainSom" ID="ID_32722339" CREATED="1371260195644" MODIFIED="1371260205654">
-<node TEXT="alunos" ID="ID_1112229518" CREATED="1371260205658" MODIFIED="1383834901020">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1525583759" MIDDLE_LABEL="quando lS.class==ativo" STARTINCLINATION="174;0;" ENDINCLINATION="218;6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-<node TEXT="avalia&#xe7;&#xe3;o e creditos" ID="ID_307953762" CREATED="1383965190614" MODIFIED="1383968561924"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Need to monitor the progress of people, that they are opening the temas, reading items, discussing...participating...remember the PDC requises &quot;substantial participation&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Temas....when a tema is available....it would normally be a set of short videos....with supporting references and maybe homework.....
-    </p>
-    <p>
-      it will open in story...with text and various embedded videos,&#160; slideshows..apresentations, each with a chk button (to say they have watched this one) ...and suggested references and tarefas....so its a complex text file.....that structrures a TEMA tiddler!
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      txtfile
-    </p>
-    <p>
-      simple slice for start date, course, title, no. videos, no. tarefas, key tags
-    </p>
-    <p>
-      then sections containing text, url of video/apresentation
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
 </node>
 <node TEXT="index.html" ID="ID_1481692578" CREATED="1364848623896" MODIFIED="1364848759085" COLOR="#ff0033">
@@ -573,9 +627,9 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff6600" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1352215134" STARTINCLINATION="215;-11;" ENDINCLINATION="215;-11;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="discussao" ID="ID_79509164" CREATED="1366266034156" MODIFIED="1366266047953"/>
 <node TEXT="pergunta" ID="ID_795359789" CREATED="1366266054099" MODIFIED="1366266266969" COLOR="#ff0000">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_52604852" STARTINCLINATION="346;-50;" ENDINCLINATION="344;-50;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" STARTINCLINATION="287;-41;" ENDINCLINATION="360;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_925833546" STARTINCLINATION="308;-51;" ENDINCLINATION="308;-51;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_52604852" STARTINCLINATION="346;-50;" ENDINCLINATION="344;-50;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="resposta" ID="ID_1704455825" CREATED="1366266061935" MODIFIED="1366266072765"/>
 </node>
@@ -584,8 +638,8 @@
 </node>
 </node>
 <node TEXT="Apresenta" ID="ID_1003712838" CREATED="1366162748284" MODIFIED="1379645449505">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_118025791" STARTINCLINATION="-229;0;" ENDINCLINATION="-116;-9;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1197109707" STARTINCLINATION="87;-102;" ENDINCLINATION="402;0;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_118025791" STARTINCLINATION="-229;0;" ENDINCLINATION="-116;-9;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Apresenta" ID="ID_1739571623" CREATED="1379644941649" MODIFIED="1379644958751"/>
 <node TEXT="WIZIQs" ID="ID_292897035" CREATED="1379644959434" MODIFIED="1379644966085"/>
 </node>
@@ -803,9 +857,9 @@
 </node>
 <node TEXT="RightSideBar" ID="ID_1783221563" CREATED="1368065201308" MODIFIED="1368065214370">
 <node TEXT="Login" ID="ID_804302939" CREATED="1368065216672" MODIFIED="1371161495806">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1172122892" MIDDLE_LABEL="Nome&#xa;n&#xe3;o reconhecido!" STARTINCLINATION="585;0;" ENDINCLINATION="638;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_61275643" MIDDLE_LABEL="confirma &#xa;password &#xa;set config.options,&#xa;atualizes rightSidebar,&#xa;mainSom &amp; mainHead" STARTINCLINATION="545;0;" ENDINCLINATION="545;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#333333" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1041724671" MIDDLE_LABEL="ler e &#xa;seleciona &#xa;localStorage.username" STARTINCLINATION="676;0;" ENDINCLINATION="676;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1172122892" MIDDLE_LABEL="Nome&#xa;n&#xe3;o reconhecido!" STARTINCLINATION="585;0;" ENDINCLINATION="638;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="localStorage.UploadUserName==&quot;visitor&quot;" ID="ID_460424101" CREATED="1368065276433" MODIFIED="1383790020373"><richcontent TYPE="NOTE">
 
 <html>
@@ -1094,14 +1148,13 @@
 </node>
 </node>
 </node>
-<node TEXT="Alunos" ID="ID_15015615" CREATED="1364848685555" MODIFIED="1364848689109">
-<node TEXT="aluno" ID="ID_1952340213" CREATED="1366162439168" MODIFIED="1366162446286">
-<node TEXT="acoes.txt" ID="ID_410134694" CREATED="1366162447855" MODIFIED="1366162455973"/>
-<node TEXT="diario.txt" ID="ID_1832614203" CREATED="1366162457480" MODIFIED="1366162464435"/>
-<node TEXT="creditos.txt" ID="ID_925833546" CREATED="1366163550385" MODIFIED="1384219404090">
-<cloud COLOR="#ffcccc" SHAPE="ARC"/>
+<node TEXT="Materias" ID="ID_1296274598" CREATED="1366162312211" MODIFIED="1366162317934">
+<node TEXT="materia.html" ID="ID_118025791" CREATED="1366162317938" MODIFIED="1366162329188">
+<node TEXT="nota" ID="ID_672538220" CREATED="1366162340289" MODIFIED="1368065214305">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#00cc00" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" STARTINCLINATION="135;-78;" ENDINCLINATION="85;-21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#00cc00" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="112;0;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="config.txt" ID="ID_61275643" CREATED="1371160499446" MODIFIED="1371160583774"><richcontent TYPE="NOTE">
+<node TEXT="pergunta" ID="ID_20932897" CREATED="1366162350690" MODIFIED="1384214576289"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1109,13 +1162,41 @@
   </head>
   <body>
     <p>
-      password|email|curso|telefone|webage|facebook
+      when displaying a learning object, the icons for info, batepapo, answer and return show up.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0033">BatePapo - needs t be fixe</font>d
+    </p>
+    <p>
+      <font color="#ff0033">ANswers...check out destination of respostas...and the upload part!! </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#330033">return seems to be working</font>
     </p>
   </body>
 </html>
 </richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000ff" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="104;0;" ENDINCLINATION="110;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000ff" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" STARTINCLINATION="97;-31;" ENDINCLINATION="128;-31;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="resposta" ID="ID_1497332700" CREATED="1366162606116" MODIFIED="1370656597390" HGAP="110">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc00cc" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_611001331" STARTINCLINATION="83;6;" ENDINCLINATION="258;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc00cc" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" MIDDLE_LABEL="avalia&#xe7;&#xe3;o?" STARTINCLINATION="120;-174;" ENDINCLINATION="294;-68;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="grupos.txt" ID="ID_1538083271" CREATED="1384214809665" MODIFIED="1384219425603"><richcontent TYPE="NOTE">
+</node>
+<node TEXT="referencia" ID="ID_1713002167" CREATED="1366162357692" MODIFIED="1366162363456"/>
+<node TEXT="video" ID="ID_609675642" CREATED="1366162364713" MODIFIED="1366162369655"/>
+</node>
+<node TEXT="materia.txt" ID="ID_611001331" CREATED="1366162330266" MODIFIED="1366162336932"/>
+</node>
+<node TEXT="Cursos" ID="ID_1665252990" CREATED="1371249197684" MODIFIED="1371249202494">
+<node TEXT="NomeCurso" ID="ID_806582159" CREATED="1407892647583" MODIFIED="1407892660469">
+<node TEXT="programa.txt" ID="ID_251502452" CREATED="1371251560460" MODIFIED="1408036542103"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1123,52 +1204,159 @@
   </head>
   <body>
     <p>
-      for the group work (projects and study groups, and maybe local workshops and working-bees) need to be able to regsiter and use information about whos in the group.....principally to allocate credits....
+      a matrix of the main materias...and dates as to when each module will be released......
     </p>
     <p>
-      
+      |Iniciando|20140702|
     </p>
     <p>
-      so....someonw has to be the group facilitator..... who will register the group, respond to questions and send reports..... HOW?
+      |Onde_Estamos|20140703|
     </p>
     <p>
-      
+      |Onde_Queremos_Ir||
     </p>
     <p>
-      In left side bar alunos.....open the icon....fill in the form and register group...note that the facilitator does not register their name and the group name has to be unique...the php file (<font color="#0000ff">Alunos/novoGrupo.php</font>) checks group name and validates each participante name (geting the aluno.txt file from the course folder in Cursos)...then records the group into <font color="#0000ff">Alunos/grupos.txt </font>
+      |Princpios_e_Caminhos|20140702|
     </p>
     <p>
-      
+      |Resiliencia|20140703|
     </p>
     <p>
-      <font color="#330033">alunos list also includes list of all groups for that course...and their participantes... </font>
+      |Agua|20140803|
     </p>
     <p>
-      
+      |EcoConstrucao|20140808|
     </p>
     <p>
-      <font color="#ff0033">check out group registration after add Ivone to all</font>
+      |seAlimentando||
     </p>
     <p>
-      
+      |Zona_000||
+    </p>
+    <p>
+      |Zona_00||
+    </p>
+    <p>
+      |Zona_1||
+    </p>
+    <p>
+      |Zona_2||
+    </p>
+    <p>
+      |Zona_3||
+    </p>
+    <p>
+      |Zona_4||
+    </p>
+    <p>
+      |Zona_5||
+    </p>
+    <p>
+      |Solos||
+    </p>
+    <p>
+      |Comunidade||
+    </p>
+    <p>
+      |Economia||
+    </p>
+    <p>
+      |Tecnologia||
+    </p>
+    <p>
+      |Educacao||
+    </p>
+    <p>
+      |Aula1||
+    </p>
+    <p>
+      |Aula2||
     </p>
   </body>
 </html>
 </richcontent>
-<cloud COLOR="#ffcccc" SHAPE="ARC"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1743346204" STARTINCLINATION="95;-30;" ENDINCLINATION="95;-30;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="alunos.txt" ID="ID_1525583759" CREATED="1371249202498" MODIFIED="1383838749779"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AAA/alunosSimples.txt has the list of all students (approved to upload...) and each student has a config.txt file with basic info........
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      NOW...when a student registers for a course..... as well as setting up their config.txt....need to also put their details into a course list...so that the system can quickly list co-participants.......
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      need to check that they digitised for a valid course name!!!.....need file with registered course names!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Cursos!!alunos
+    </p>
+    <p>
+      uses localStorage.curso to get the student list from Cursos/curso/alunos.txt, and then cycles through the names..opening Alunos/nome/config.txt and getting the appropriate information into a simple table.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="enter.html" ID="ID_1053002376" CREATED="1420138963535" MODIFIED="1420138973403">
-<node TEXT="enter.php" ID="ID_146370260" CREATED="1420138973410" MODIFIED="1420139057171">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_588943886" STARTINCLINATION="245;0;" ENDINCLINATION="245;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1071375520" STARTINCLINATION="871;203;" ENDINCLINATION="827;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="mainSom" ID="ID_32722339" CREATED="1371260195644" MODIFIED="1371260205654">
+<node TEXT="alunos" ID="ID_1112229518" CREATED="1371260205658" MODIFIED="1383834901020">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="255" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1525583759" MIDDLE_LABEL="quando lS.class==ativo" STARTINCLINATION="174;0;" ENDINCLINATION="218;6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="avalia&#xe7;&#xe3;o e creditos" ID="ID_307953762" CREATED="1383965190614" MODIFIED="1383968561924"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Need to monitor the progress of people, that they are opening the temas, reading items, discussing...participating...remember the PDC requises &quot;substantial participation&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Temas....when a tema is available....it would normally be a set of short videos....with supporting references and maybe homework.....
+    </p>
+    <p>
+      it will open in story...with text and various embedded videos,&#160; slideshows..apresentations, each with a chk button (to say they have watched this one) ...and suggested references and tarefas....so its a complex text file.....that structrures a TEMA tiddler!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      txtfile
+    </p>
+    <p>
+      simple slice for start date, course, title, no. videos, no. tarefas, key tags
+    </p>
+    <p>
+      then sections containing text, url of video/apresentation
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="DadosSkye" ID="ID_906151961" CREATED="1415838239636" MODIFIED="1415838261067">
-<node TEXT="ITEM.txt" ID="ID_588943886" CREATED="1420136308269" MODIFIED="1420136482874">
-<font ITALIC="true"/>
+<node TEXT="Discuss&#xe3;o" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_558390417" CREATED="1368245243222" MODIFIED="1368245332626" HGAP="718" VSHIFT="70">
+<hook NAME="FreeNode"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1177,15 +1365,22 @@
   </head>
   <body>
     <p>
-      on entering an item o enter.php creates a simples text file with information about the item in standard table format.......and allowing the possibility to add othe lines as comments ou extensions, simply recording the name of the linked archive
+      for now this puts all the discussion items into discuss.txt -- in future may have to re-arrange this....this file could get pretty big and unyeildly!!!
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="ETIQUETA.txt" ID="ID_1197705658" CREATED="1420138740496" MODIFIED="1420138895720">
-<font ITALIC="true"/>
+<node TEXT="FireFoxFavoritas" POSITION="left" ID="ID_76407581" CREATED="1366163073468" MODIFIED="1370656387211">
+<cloud COLOR="#ffffcc" SHAPE="ARC"/>
+<node TEXT="Diaro.html" ID="ID_1849333972" CREATED="1366163110607" MODIFIED="1370656975238">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" MIDDLE_LABEL="diarios&#xa;notinhas&#xa;ideias&#xa;relatorio&#xa;atas" STARTINCLINATION="-193;-125;" ENDINCLINATION="-145;-17;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Data.html" ID="ID_1267212190" CREATED="1369192363543" MODIFIED="1370657228395">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000cc" WIDTH="5" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_808094166" STARTINCLINATION="-221;118;" ENDINCLINATION="79;-345;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="IndepDoc.html" ID="ID_674309831" CREATED="1369193814677" MODIFIED="1369193884847">
+<icon BUILTIN="very_negative"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1194,51 +1389,17 @@
   </head>
   <body>
     <p>
-      cada etiqueta usada gera um arquivo txt, com os nomes dos items ligada a tal etiqueta.
+      needs a html page that allows to input the text, and then saves it to the students folder...and puts an entry into the students acoes.txt file.
     </p>
   </body>
 </html>
-
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_588943886" STARTINCLINATION="41;0;" ENDINCLINATION="41;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-<node TEXT="TagsIndex.html" ID="ID_1063238948" CREATED="1420138824505" MODIFIED="1420138882337"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Uma lista simpes das etiquetas usadas ....ver nome e ira a arquiva dela!!!!
-    </p>
-  </body>
-</html>
-
-</richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1197705658" STARTINCLINATION="40;0;" ENDINCLINATION="40;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
+<node TEXT="AquiAiDragons" POSITION="left" ID="ID_1081300729" CREATED="1366163203367" MODIFIED="1379646025188" HGAP="167" VSHIFT="13">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#ff0099" WIDTH="5" TRANSPARENCY="60" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_808094166" STARTINCLINATION="-136;135;" ENDINCLINATION="18;-350;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="XAMPP" POSITION="right" ID="ID_335109958" CREATED="1415826743006" MODIFIED="1420040593394" HGAP="60" VSHIFT="20">
-<edge COLOR="#ff00ff"/>
-<node TEXT="Cursos" ID="ID_456697813" CREATED="1415826784186" MODIFIED="1420040173665"/>
-</node>
-<node TEXT="Evernote" POSITION="right" ID="ID_1492119629" CREATED="1415838265163" MODIFIED="1420040572859" HGAP="40" VSHIFT="-3">
-<edge COLOR="#ffff00"/>
-</node>
-<node TEXT="Musicas" POSITION="right" ID="ID_457618136" CREATED="1415826735914" MODIFIED="1420040577471" HGAP="40" VSHIFT="-16">
-<edge COLOR="#00ff00"/>
-</node>
-<node TEXT="skyeLaptop" POSITION="right" ID="ID_1964396707" CREATED="1379645492876" MODIFIED="1420040582581" HGAP="49" VSHIFT="-12">
-<edge COLOR="#007c00"/>
-<node TEXT="FireFoxBookmarklets" ID="ID_919973395" CREATED="1379645508781" MODIFIED="1379645522357">
-<node TEXT="data.html" ID="ID_1813953505" CREATED="1379645524052" MODIFIED="1379645532799"/>
-<node TEXT="materias.html" ID="ID_350575781" CREATED="1379645536340" MODIFIED="1379645556830"/>
-<node TEXT="notasPalestra.html" ID="ID_381777167" CREATED="1379645557393" MODIFIED="1379645565697"/>
-</node>
-</node>
-<node TEXT="Programa PDC Curicula" POSITION="right" ID="ID_884310872" CREATED="1370653789687" MODIFIED="1420040605350" HGAP="71" VSHIFT="6">
+<node TEXT="Programa PDC Curicula" POSITION="left" ID="ID_884310872" CREATED="1370653789687" MODIFIED="1370656731197">
 <cloud COLOR="#ccffcc" SHAPE="ARC"/>
 <edge COLOR="#ff0099" WIDTH="1"/>
 <node TEXT="me apresentando" ID="ID_603728431" CREATED="1370654931081" MODIFIED="1370654940800"/>
@@ -1320,22 +1481,13 @@
 <node TEXT="jornal aprendizagem" ID="ID_1785191508" CREATED="1370656790866" MODIFIED="1370656834315"/>
 </node>
 </node>
-<node TEXT="documentos/GitHub/freeplanes/Skye.mm" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1891244618" CREATED="1420041271158" MODIFIED="1420041354544" HGAP="180" VSHIFT="901">
-<hook NAME="FreeNode"/>
-<font SIZE="22"/>
+<node TEXT="skyeLaptop" POSITION="left" ID="ID_1964396707" CREATED="1379645492876" MODIFIED="1379645507444">
+<node TEXT="FireFoxBookmarklets" ID="ID_919973395" CREATED="1379645508781" MODIFIED="1379645522357">
+<node TEXT="data.html" ID="ID_1813953505" CREATED="1379645524052" MODIFIED="1379645532799"/>
+<node TEXT="materias.html" ID="ID_350575781" CREATED="1379645536340" MODIFIED="1379645556830"/>
+<node TEXT="notasPalestra.html" ID="ID_381777167" CREATED="1379645557393" MODIFIED="1379645565697"/>
 </node>
-<node TEXT="FireFoxFavoritas" POSITION="left" ID="ID_76407581" CREATED="1366163073468" MODIFIED="1420040517346">
-<cloud COLOR="#ffffcc" SHAPE="ARC"/>
-<edge COLOR="#00007c"/>
-<node TEXT="Diaro.html" ID="ID_1849333972" CREATED="1366163110607" MODIFIED="1370656975238">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_410134694" MIDDLE_LABEL="diarios&#xa;notinhas&#xa;ideias&#xa;relatorio&#xa;atas" STARTINCLINATION="-193;-125;" ENDINCLINATION="-145;-17;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-<node TEXT="Data.html" ID="ID_1267212190" CREATED="1369192363543" MODIFIED="1420041080672">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#0000cc" WIDTH="5" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_808094166" STARTINCLINATION="-221;118;" ENDINCLINATION="79;-345;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-<node TEXT="IndepDoc.html" ID="ID_674309831" CREATED="1369193814677" MODIFIED="1369193884847">
-<icon BUILTIN="very_negative"/>
-<richcontent TYPE="NOTE">
+<node TEXT="Materias/index.html" ID="ID_178057774" CREATED="1379726195914" MODIFIED="1379726654525"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1343,15 +1495,19 @@
   </head>
   <body>
     <p>
-      needs a html page that allows to input the text, and then saves it to the students folder...and puts an entry into the students acoes.txt file.
+      aberta a skye para planejar e organiza as temas dos estudos...... aguardando as temas como &quot;storyLIne&quot; na arquvo Materias/temasStore.txt..... eles tem nome, curso, e texto=lista das slides na apresenta&#231;&#227;o...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      tambem guarda e editara as slides...aguardados no Materias/materiItemStore.txt........que seram leidas por SAUB..... nota que importante que SAUB tem guardarTiddlers disligado nesta momento....e que ele tem um tiddler que e a apresenta&#231;&#227;o default......na sele&#231;&#227;o da tema.....esse tiddler recebe a lista das slides.......
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node TEXT="dadosSys" ID="ID_1793294463" CREATED="1420138918117" MODIFIED="1420138999442">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1053002376" STARTINCLINATION="372;0;" ENDINCLINATION="18;113;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-</node>
+<node TEXT="txt files" POSITION="left" ID="ID_151490305" CREATED="1384101487002" MODIFIED="1384101495034"/>
 </node>
 </map>
